@@ -17,7 +17,7 @@ def two_sum(nums, target):
 
         if diff in hash_map:
             return idx, hash_map[diff]
-            
+
         hash_map[num] = idx
 
 
